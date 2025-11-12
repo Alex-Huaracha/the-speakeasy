@@ -5,6 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "node --watch app.js",
     "db:init": "node db/init.js",
     "db:seed": "node db/seed.js"
