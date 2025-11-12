@@ -105,7 +105,6 @@ export const user_logout_get = (req, res, next) => {
 };
 
 export const join_club_get = (req, res, next) => {
-  console.log('req.user:', req.user);
   if (!req.user) {
     return res.redirect('/log-in');
   }
